@@ -1,0 +1,23 @@
+{
+  "server": {
+    "ip": "RzVKyu.aternos.me",
+    "port": 26399,
+    "version": "1.21.4",
+    "comment": "1.21.4"
+  },
+  "bot": {
+    "username": "ambatublow",
+    "reconnectDelay": [5000, 20000],
+    "allowCommands": true,
+    "comment": "Set allowCommands ke false jika tidak perlu command !status"
+  },
+  "movement": {
+    "maxDistanceFromSpawn": 5,
+    "actionInterval": [10000, 25000],
+    "movementDuration": [500, 1500],
+    "comment": "Semua dalam milidetik. Interval lebih panjang = lebih hemat resource"
+  },
+  "performance": {
+    "comment": "Movement-only bot: ~25-35MB RAM, <0.5% CPU"
+  }
+}

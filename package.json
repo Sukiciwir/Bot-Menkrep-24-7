@@ -1,0 +1,33 @@
+{
+  "name": "minecraft-afk-bot",
+  "version": "2.0.0",
+  "description": "Enterprise-grade Minecraft AFK bot with anti-detection and auto-reconnect",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "node test-connection.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "afk",
+    "mineflayer",
+    "automation"
+  ],
+  "author": "Icikiwirland",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.20.1",
+    "mineflayer-pathfinder": "^2.4.4",
+    "mineflayer-auto-eat": "^2.1.1",
+    "mineflayer-armor-manager": "^1.3.1",
+    "minecraft-data": "^3.69.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
