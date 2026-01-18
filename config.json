@@ -1,3 +1,4 @@
+
 {
   "server": {
     "ip": "RzVKyu.aternos.me",
@@ -19,5 +20,9 @@
   },
   "performance": {
     "comment": "Movement-only bot: ~25-35MB RAM, <0.5% CPU"
+  },
+  "resourcePack": {
+    "behavior": "accept",
+    "comment": "Options: 'accept' (default), 'decline', 'download'. Accept = no download (saves bandwidth)"
   }
 }
